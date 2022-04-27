@@ -129,7 +129,6 @@ a {
 .address-list:focus .addresssvg {
   fill: var(--accentColour);
 }
-
 .address-list:hover .contact,
 .address-list:focus .contact {
   color: var(--accentColour);
