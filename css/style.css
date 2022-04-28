@@ -433,6 +433,9 @@ a {
 .footer-social-icon {
   fill: #fff;
 }
+.footer-social-link:nth-last-child(1) {
+  margin-right: 10px;
+}
 .footer-social-link {
   display: flex;
   align-items: center;
@@ -443,12 +446,10 @@ a {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+
 .footer-social-link:hover,
 .footer-social-link:focus {
   background: var(--accentColour);
-}
-.footer-link-distance:not(:last-child) {
-  margin-right: 10px;
 }
 
 .footer-contact {
