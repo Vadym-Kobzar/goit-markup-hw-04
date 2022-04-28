@@ -150,15 +150,20 @@ a {
 
 .hero {
   max-width: 1600px;
+
   /*height: 600px;*/
   text-align: center;
-  background-image: url(/images/photo.jpg);
+
+  background-image: url(/images/photo.jpg),
+    linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+
   background-size: cover;
   background-position: center;
 }
 .hero-title {
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
+  /*margin-right: auto;
+  margin-left: auto;*/
   width: 696px;
 
   font-weight: 900;
