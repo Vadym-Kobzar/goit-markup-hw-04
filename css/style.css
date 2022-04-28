@@ -148,12 +148,17 @@ a {
 .sample {
   padding-top: 47px;
 }
-
+.mean {
+  padding-top: 100px;
+}
 .hero {
+  display: flex;
+
   width: 1600px;
+  height: 600px;
+
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 
   background-image: url(../images/photo.jpg),
     linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
